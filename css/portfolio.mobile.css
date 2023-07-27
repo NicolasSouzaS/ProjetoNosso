@@ -1,0 +1,154 @@
+/* Inicio dos códigos responsivos da página de projetos da empresa */
+@media screen and (min-width: 0px) and (max-width: 576px){
+    .menu-abrir {
+        background: none;
+        width: 0px;
+        height: 0px;
+
+    }
+
+    .menu-abrir {
+        background: none;
+        display: none;
+        display: block;
+        
+    }
+
+    header button{
+        display: none;
+        width: 0;
+        height: 0%;
+    }
+    .cabecalho-portfolio {
+        padding: 90px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .menu-abrir2 {
+        background: none;
+        display: none;
+        padding: 0px;
+        border: 0;
+        width: 0%;
+        height: 0%;
+    }
+
+    .formulario-caixas {
+        margin-top: 30px;
+        height: 450px;
+        width: 250px;
+        margin-left: 39px;
+    }
+    .formulario h2{
+        text-align: center;
+    }
+
+    .qrCode img {
+        width: 250px;
+        height: 250px;
+        margin-top: 1%;
+        filter: invert(0%) sepia(0%) hue-rotate(0deg);
+    }
+
+    .cabecalho-portfolio div{
+        display: none;
+
+    }
+
+    #menu ion-icon{
+        width: 500px;
+        height: 70px;
+        color: #f2f2f2;
+    }
+
+      .logo {
+        margin-left: 3%;
+        width: 40px;
+        height: 138px;
+        margin-top: 6%;
+    }
+
+    .menu-abrir2 {
+        background: url(../img/menu-abrir.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+        margin-left: 60%;
+        margin-bottom: 50px;
+   }
+
+   .body-portfolio {
+    max-width: 380px;
+    min-height: 100vh;
+    background: linear-gradient(#7597de);
+}
+
+.formulario p {
+   margin-top: 5%;
+   margin-right: 25px;
+}
+
+.redes-sociais {
+    margin-right: 18%;
+    margin-top: 8%;
+}
+
+#solicitacao {
+    margin-bottom: 21px;
+    margin-right: 44px;
+}
+
+.qrCode {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 700px;
+}
+
+
+.parte-baixo{
+    display: none;
+
+}
+
+.parte-cima{
+    display: block;
+}
+
+.parte-cima{
+    margin-left: -47px;
+}
+
+.cont-roda {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 5%;
+    margin-top: 400px;
+}
+
+.projetos-feitos {
+    width: 400px;
+    margin-bottom: 500px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #fff;
+    margin: 10px 40px;
+    padding: 10px;
+    transition: ease 0.5s;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+}
+
+
