@@ -136,7 +136,7 @@
 }
 
 .projetos-feitos {
-    width: 290px;
+    width: 347px;
     margin-bottom: 500px;
     height: 280px;
     border-radius: 10px;
@@ -147,8 +147,8 @@
     transition: ease 0.5s;
     cursor: pointer;
     margin-bottom: 70px;
+    margin-left: 60px;
 }
-
 }
 
 
