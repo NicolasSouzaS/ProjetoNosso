@@ -788,18 +788,6 @@ div ul {
     margin-left: 10%;
   }
 
-  .menu {
-    background-color: rgba(0, 0, 0, 0.95);
-    height: 100%;
-    position: fixed;
-    margin: 0;
-    top: 0;
-    right: -350px;
-    max-width: 350px;
-    width: 50%;
-    z-index: 9;
-    transition: right 0.6s ease-out;
-  }
 
   .menu ul {
     flex-direction: column;

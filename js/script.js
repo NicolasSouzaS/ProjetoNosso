@@ -2,13 +2,7 @@
 
 
 //  aqui eu criei para a palavra "website" do sobre ficar escrevendo sozinho
-var typingeffect = new Typed(".digitando", {
-  strings: ["WEBSITE"],
-  loop: true,
-  typeSpeed: 150,
-  backSpeed: 100,
-  backDelay: 1500,
-});
+
 
 // aqui eu criei para quando clicar no link do cookies a div sumir
 const linksCookies = document.getElementsByClassName('linksCookies');
@@ -93,6 +87,14 @@ $('.slide-servRealizados').slick({
 });
 
 
+document.getElementById("abrir").onclick = ()=>{
+  document.querySelector(".menu").style.display = "block"
+
+}
 
 
 
+document.getElementById("fechar").onclick = ()=>{
+  document.querySelector(".menu").style.display = "none"
+
+}
